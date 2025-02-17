@@ -1,0 +1,158 @@
+{
+    "status": "OK",
+    "recordCount": 1,
+    "startTimestamp": "2023-11-08T07:52:59.3534137Z",
+    "endTimestamp": "2023-11-08T07:52:59.3690652Z",
+    "timeTaken": 0.0156515,
+    "apiResults": [{
+        "sportId": 1,
+        "name": "Basketball",
+        "league": {
+            "leagueId": 1,
+            "name": "National Basketball Assoc.",
+            "abbreviation": "NBA",
+            "displayName": "National Basketball Assoc.",
+            "season": {
+                "season": 2023,
+                "name": "2023-24 NBA Season",
+                "isActive": true,
+                "eventType": [{
+                    "eventTypeId": 1,
+                    "name": "Regular Season",
+                    "events": [{
+                        "eventId": 2591149,
+                        "startDate": [{
+                            "year": 2023,
+                            "month": 11,
+                            "date": 6,
+                            "hour": 19,
+                            "minute": 0,
+                            "full": "2023-11-06T19:00:00",
+                            "dateType": "Local"
+                        }, {
+                            "year": 2023,
+                            "month": 11,
+                            "date": 7,
+                            "hour": 1,
+                            "minute": 0,
+                            "full": "2023-11-07T01:00:00",
+                            "dateType": "UTC"
+                        }],
+                        "endDate": [{
+                            "year": 2023,
+                            "month": 11,
+                            "date": 6,
+                            "hour": 22,
+                            "minute": 38,
+                            "full": "2023-11-06T22:38:26",
+                            "dateType": "Eastern"
+                        }, {
+                            "year": 2023,
+                            "month": 11,
+                            "date": 7,
+                            "hour": 3,
+                            "minute": 38,
+                            "full": "2023-11-07T03:38:26",
+                            "dateType": "UTC"
+                        }],
+                        "isTba": false,
+                        "isDataConfirmed": {
+                            "score": true
+                        },
+                        "scheduledPeriods": 4,
+                        "eventStatus": {
+                            "eventStatusId": 4,
+                            "period": 4,
+                            "isActive": false,
+                            "name": "Final"
+                        },
+                        "venue": {
+                            "venueId": 3755,
+                            "name": "Paycom Center",
+                            "city": "Oklahoma City",
+                            "attendanceInfo": {
+                                "reasonId": 0,
+                                "reasonDesc": "Full Audience"
+                            },
+                            "state": {
+                                "stateId": 36,
+                                "name": "Oklahoma",
+                                "abbreviation": "OK"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        },
+                        "tvStations": [{
+                            "tvStationId": 897,
+                            "name": "Bally Sports Oklahoma",
+                            "callLetters": "BSOK",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }, {
+                            "tvStationId": 30,
+                            "name": "Bally Sports - Southeast",
+                            "callLetters": "BSSE",
+                            "networkType": {
+                                "networkTypeId": 2,
+                                "name": "Regional"
+                            },
+                            "country": {
+                                "countryId": 1,
+                                "name": "United States",
+                                "abbreviation": "USA"
+                            }
+                        }],
+                        "teams": [{
+                            "teamId": 25,
+                            "location": "Oklahoma City",
+                            "nickname": "Thunder",
+                            "abbreviation": "OKC",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 1,
+                                "name": "home"
+                            },
+                            "record": {
+                                "wins": 4,
+                                "losses": 3,
+                                "percentage": ".571"
+                            },
+                            "score": 126,
+                            "isWinner": true
+                        }, {
+                            "teamId": 1,
+                            "location": "Atlanta",
+                            "nickname": "Hawks",
+                            "abbreviation": "ATL",
+                            "teamLocationType": {
+                                "teamLocationTypeId": 2,
+                                "name": "away"
+                            },
+                            "record": {
+                                "wins": 4,
+                                "losses": 3,
+                                "percentage": ".571"
+                            },
+                            "score": 117,
+                            "isWinner": false
+                        }],
+                        "coverageLevel": {
+                            "coverageLevelId": 3,
+                            "details": "NBA FEED",
+                            "name": "level 1"
+                        }
+                    }]
+                }]
+            }
+        }
+    }]
+}
